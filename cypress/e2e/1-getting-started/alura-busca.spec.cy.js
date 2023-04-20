@@ -4,6 +4,9 @@ describe('alura busca cursos', () => {
     })
     
     it('buscar curso de java', () => {
-
+        cy.get('#header-barraBusca-form-campoBusca').type('java');
+        cy.get('.header-barraBusca-form-submit').click();
+        cy.get('h4.busca-resultado-nome')
+            .should('contain','Java');
     })
 })
