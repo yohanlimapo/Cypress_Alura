@@ -1,0 +1,25 @@
+{
+  "name": "projeto1",
+  "version": "1.0.0",
+  "description": "Primeiro projeto com Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yohanlimapo/Cypress_Alura.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Yohan Lim-Apo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yohanlimapo/Cypress_Alura/issues"
+  },
+  "homepage": "https://github.com/yohanlimapo/Cypress_Alura#readme",
+  "devDependencies": {
+    "cypress": "^12.10.0"
+  }
+}
