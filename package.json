@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/yohanlimapo/Cypress_Alura#readme",
   "devDependencies": {
-    "cypress": "^12.10.0"
+    "cypress": "^12.10.0",
+    "mochawesome": "^7.1.3"
   }
 }
