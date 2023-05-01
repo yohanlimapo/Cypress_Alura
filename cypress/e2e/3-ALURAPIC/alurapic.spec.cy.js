@@ -1,6 +1,6 @@
 describe('login e regristro de usuários alura pic', () => {
     beforeEach(() => {
-        cy.visit('https://alura-fotos.herokuapp.com/#/home')
+        cy.visit('/')
     })
     it('verifica mensagens validacao', () => {
         cy.contains('a', 'Register now').click();
